@@ -1,1 +1,114 @@
+Bài tập của sinh viên: HOÀNG ĐỨC HỘI - MSV K225480106085 
+Môn: Hệ quản trị  
+
+BÀI TẬP VỀ NHÀ 02 - MÔN HỆ QUẢN TRỊ CSDL:
+
+DEADLINE: 23H59 NGÀY 25/03/2025
+
+ĐIỀU KIỆN: (ĐÃ LÀM XONG BÀI 1)
+1. Đã cài đặt SQL Server 2022 Dev.
+2. Đã cài đặt SQL Managerment Studio bản mới nhất.
+3. Đã kết nối từ SQL Managerment Studio vào SQL Server.
+4. Đã có tài khoản github, biết cách tạo repository(kho lưu trữ) cho phép truy cập public.
+
+BÀI TOÁN:
+- Tạo csdl quan hệ với tên QLSV gồm các bảng sau:
+  + SinhVien(#masv,hoten,NgaySinh)
+  + Lop(#maLop,tenLop)
+  + GVCN(#@maLop,#@magv,#HK)
+  + LopSV(#@maLop,#@maSV,ChucVu)
+  + GiaoVien(#magv,hoten,NgaySinh,@maBM)
+  + BoMon(#MaBM,tenBM,@maKhoa)
+  + Khoa(#maKhoa,tenKhoa)
+  + MonHoc(#mamon,Tenmon,STC)
+  + LopHP(#maLopHP,TenLopHP,HK,@maMon,@maGV)
+  + DKMH(#@maLopHP,#@maSV,DiemTP,DiemThi,PhanTramThi)
+
+YÊU CẦU:
+1. Thực hiện các hành động sau trên giao diện đồ hoạ để tạo cơ sở dữ liệu cho bài toán:
+  + Tạo database mới, mô tả các tham số(nếu có) trong quá trình.
+  + Tạo các bảng dữ liệu với các trường như mô tả, chọn kiểu dữ liệu phù hợp với thực tế (tự tìm hiểu)
+  + Mỗi bảng cần thiết lập PK, FK(s) và CK(s) nếu cần thiết. (chú ý dấu # và @: # là chỉ PK, @ chỉ FK)
+2. Chuyển các thao tác đồ hoạ trên thành lệnh SQL tương đương. lưu tất cả các lệnh SQL trong file: Script_DML.sql
+
+Mô tả chi tiết bài tập:
+
+- Bước 1: Kết nối tài khoản SQL Server
+
+![Image](https://github.com/user-attachments/assets/fc515a51-1d20-436c-af47-c92675f64dc6)
+
+- Bước 2: Tạo Database
+
+ - Sau khi kết nối thành công, nhấp chuột phải vào Cơ sở dữ liệu --> Cơ sở dữ liệu mới
+
+![Image](https://github.com/user-attachments/assets/4117e850-d615-467d-9332-7e0884d07778)
+
+- Đặt tên cho Cơ sở dữ liệu và nhấn 'Ok':
+
+![Image](https://github.com/user-attachments/assets/cbae8ee9-04b8-4e5b-8b02-60d848b80756)
+
+- Bước 3: Tạo Bảng
+  
+ - Nhấn vào dấu '+' tại Cơ sở dữ liệu vừa tạo,  ta sẽ tìm thấy 'Bảng' :
+
+![Image](https://github.com/user-attachments/assets/e21a20d7-bd63-421a-9714-1d5336661cc6)
+
+- Nhấn chuột phải vào Tables --> New ---> Table:
+
+![Image](https://github.com/user-attachments/assets/88f99a20-2320-4c67-ab7c-4c3def73a39b)
+
+Thực hiện bổ sung các thuộc tính theo yêu cầu vào mỗi bảng với loại dữ liệu phù hợp với thuộc tính đó ---> Ctrl S để lưu bảng và đặt bảng tên
+
+![Screenshot 2025-04-09 002756](https://github.com/user-attachments/assets/9f3df95b-6dde-4143-8b77-24be677ac4d2)
+
+![Screenshot 2025-04-11 220550](https://github.com/user-attachments/assets/1f335c5b-49ea-4024-b4c5-cbb8bfcf2ad3)
+
+
+![Screenshot 2025-04-11 220736](https://github.com/user-attachments/assets/328ce39c-e3d1-4173-8770-c8070f82cc17)
+
+
+![Screenshot 2025-04-11 220901](https://github.com/user-attachments/assets/5f2e6c03-a8cd-461b-9e68-293948c2ef95)
+
+
+![Screenshot 2025-04-11 221129](https://github.com/user-attachments/assets/fa49a0de-7a2e-4398-a1b0-857002afedc9)
+
+
+
+![Screenshot 2025-04-11 221259](https://github.com/user-attachments/assets/b2ca9e29-8924-493d-aaa1-367b91e8607e)
+
+
+
+
+![Screenshot 2025-04-11 221343](https://github.com/user-attachments/assets/741108a4-17fa-481a-b0b3-771cebcf9b75)
+
+
+![Screenshot 2025-04-11 221742](https://github.com/user-attachments/assets/207dfbdf-1fc1-4b29-aa12-9ac77405f3f8)
+
+
+![Screenshot 2025-04-11 221944](https://github.com/user-attachments/assets/8f927a4a-2df7-4890-b1a2-8ab21107d207)
+
+![Screenshot 2025-04-11 222145](https://github.com/user-attachments/assets/ff9f8aeb-370d-4229-bd75-bf172d2418d3)
+
+- Bước 4: Thêm cưỡng bức vào những bảng có thuộc tính cần thiết buộc phải cưỡng bức
+
+Click chuột phải vào khoảng trống bất kỳ trong mục 'Design' của bảng ---> Kiểm tra ràng buộc
+
+![Screenshot 2025-04-11 222326](https://github.com/user-attachments/assets/bee44020-b5c5-4b08-b278-b1b49aee2fa9)
+
+Thêm ----> Biểu thức (điều kiện khô ráo)
+
+![Screenshot 2025-04-11 223718](https://github.com/user-attachments/assets/4522abbc-0bc0-4dcd-801e-eadc1f6db540)
+
+![Screenshot 2025-04-11 224010](https://github.com/user-attachments/assets/fa37d7d6-5379-4be3-a80c-bcc4c6bb3290)
+
+
+
+
+
+
+
+
+
+
+
 
