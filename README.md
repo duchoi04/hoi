@@ -101,6 +101,32 @@ Thêm ----> Biểu thức (điều kiện khô ráo)
 
 ![Screenshot 2025-04-11 224010](https://github.com/user-attachments/assets/fa37d7d6-5379-4be3-a80c-bcc4c6bb3290)
 
+- Bước 5: Cài khóa chính cho các thuộc tính trong bảng:
+
+Có 2 cách để cài đặt thuộc tính trở thành khóa chính:
+Cách 1: Bấm chuột phải thuộc tính ---> đặt khóa chính
+
+
+![Screenshot 2025-04-11 225719](https://github.com/user-attachments/assets/daf49a35-3c6a-4656-898a-22417ec7db81)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
