@@ -109,6 +109,21 @@ Cách 1: Bấm chuột phải thuộc tính ---> đặt khóa chính
 
 ![Screenshot 2025-04-11 225719](https://github.com/user-attachments/assets/daf49a35-3c6a-4656-898a-22417ec7db81)
 
+![Screenshot 2025-04-11 231014](https://github.com/user-attachments/assets/d2434bb3-f4d7-4389-a71e-af3d9449b020)
+
+- Bước 5.1: Cài đặt khóa ngoại(FK) cho các thuộc tính:
+
+Chỉ có thể cài đặt ngoại khóa khi thuộc tính đó là khóa chính tại một bảng mà chúng tôi muốn liên kết tới
+
+Click chuột phải vào bất kỳ kỳ hạn nào trong bảng 'Thiết kế' ---> Mối quan hệ
+
+![Screenshot 2025-04-11 231157](https://github.com/user-attachments/assets/3b386219-d6e8-4934-9388-1fe1e4b1200e)
+
+Add(thêm khóa ngoại) ----> Nhấn vào '...' tại Đặc tả bảng và cột ( liên kết khóa chính của bảng này với khóa ngoại lệ của bảng kia)
+
+Tại Insert And Update đặc tả ----> chọn Update Rule : CASCADE ( CASCADE để bảo đảm tính chất tối đa của dữ liệu, nếu dữ liệu của khóa thuộc tính chính bị thay đổi thì dữ liệu của khóa ngoại tại liên kết bảng cũng sẽ thay đổi)
+
+
 
 
 
