@@ -147,13 +147,17 @@ Click chuột phải vào bất kỳ kỳ hạn nào trong bảng 'Thiết kế'
 
 ![anh12(1)](https://github.com/user-attachments/assets/7c5a1217-96fa-42f1-9e8d-f63e7f4e2e40)
 
+- Bước 6: Chuyển các thao tác đồ họa sang lệnh SQL:
 
-- Lệnh SQL sau khi chuyển từ thao tác đồ họa:
-
-Nhấn chuột phải vào bảng tên(dbo. Name Table) ----> Scrip Table ----> CREATE To ----> New Query Editor WindowWindow:
+   - Nhấn chuột phải vào bảng tên(dbo. Name Table) ----> Scrip Table ----> CREATE To ----> New Query Editor WindowWindow:
 
 ![Screenshot 2025-04-12 235033](https://github.com/user-attachments/assets/f8601574-8ade-49b0-a630-bbd0c4ca97da)
 
+  - Lệnh SQL sau khi chuyển từ thao tác đồ họa:
 
+![anh13](https://github.com/user-attachments/assets/8fd33e85-a241-4bb0-b9f1-4eb4bf751896)
 
+![anh14](https://github.com/user-attachments/assets/2cecc90d-4804-43f8-a378-905e955d4787)
+
+![anh15](https://github.com/user-attachments/assets/abe3d53c-e210-4f8f-af4f-63b8ef29f5fd)
 
