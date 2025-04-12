@@ -1,5 +1,5 @@
 Bài tập của sinh viên: HOÀNG ĐỨC HỘI - MSV K225480106085 
-Môn: Hệ quản trị  
+Môn: Hệ quản trị CSDL 
 
 BÀI TẬP VỀ NHÀ 02 - MÔN HỆ QUẢN TRỊ CSDL:
 
@@ -117,38 +117,42 @@ Chỉ có thể cài đặt ngoại khóa khi thuộc tính đó là khóa chín
 
 Click chuột phải vào bất kỳ kỳ hạn nào trong bảng 'Thiết kế' ---> Mối quan hệ
 
-![Screenshot 2025-04-11 231157](https://github.com/user-attachments/assets/3b386219-d6e8-4934-9388-1fe1e4b1200e)
+![Screenshot 2025-04-12 233129](https://github.com/user-attachments/assets/2147352f-9c7a-40e5-b621-aabc299fa348)
 
-Add(thêm khóa ngoại) ----> Nhấn vào '...' tại Đặc tả bảng và cột ( liên kết khóa chính của bảng này với khóa ngoại lệ của bảng kia)
+- Add(thêm khóa ngoại) ----> Nhấn vào '...' tại Đặc tả bảng và cột ( liên kết khóa chính của bảng này với khóa ngoại lệ của bảng kia)
 
-Tại Insert And Update đặc tả ----> chọn Update Rule : CASCADE ( CASCADE để bảo đảm tính chất tối đa của dữ liệu, nếu dữ liệu của khóa thuộc tính chính bị thay đổi thì dữ liệu của khóa ngoại tại liên kết bảng cũng sẽ thay đổi)
+- Tại Insert And Update đặc tả ----> chọn Update Rule : CASCADE ( CASCADE để bảo đảm tính chất tối đa của dữ liệu, nếu dữ liệu của khóa thuộc tính chính bị thay đổi thì dữ liệu của khóa ngoại tại liên kết bảng cũng sẽ thay đổi)
+
+![anh1](https://github.com/user-attachments/assets/95d7b8a7-c7b6-420e-8805-383959a81827)
+
+![anh2](https://github.com/user-attachments/assets/5ba132c4-882b-4593-b228-d46a0e630cb7)
+
+![anh3](https://github.com/user-attachments/assets/b6c157e6-4e06-4bd8-b4f0-bb51d1f76b53)
+
+![anh4](https://github.com/user-attachments/assets/e865a810-ba61-473d-b018-ca5ca2a87772)
+
+![anh5](https://github.com/user-attachments/assets/638b5d3f-1291-4d85-a888-2b9dfd3d9993)
+
+![anh6](https://github.com/user-attachments/assets/2842c896-1752-49ee-9b15-c10e7859f32e)
+
+![anh7](https://github.com/user-attachments/assets/3369f81f-de6f-454f-aa6e-a6bb1f46acd3)
+
+![anh8](https://github.com/user-attachments/assets/a1017d6d-e2c9-4b48-aef0-fe134d62c687)
+
+![anh9](https://github.com/user-attachments/assets/4a517ae0-74fc-4fe7-8001-49d5084b2ad1)
+
+![anh10](https://github.com/user-attachments/assets/5e9df6af-09c6-49a8-b78d-cf833c4a5135)
+
+![anh11](https://github.com/user-attachments/assets/d21846ce-aa74-4c46-a2f8-d6750ceca89d)
+
+![anh12(1)](https://github.com/user-attachments/assets/7c5a1217-96fa-42f1-9e8d-f63e7f4e2e40)
 
 
+- Lệnh SQL sau khi chuyển từ thao tác đồ họa:
 
+Nhấn chuột phải vào bảng tên(dbo. Name Table) ----> Scrip Table ----> CREATE To ----> New Query Editor WindowWindow:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Screenshot 2025-04-12 235033](https://github.com/user-attachments/assets/f8601574-8ade-49b0-a630-bbd0c4ca97da)
 
 
 
